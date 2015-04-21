@@ -10,7 +10,7 @@ Compile and run the program.
 
 ```sh
 ./build.sh
-./bin/example/program
+./bin/example-program
 ```
 
 Compile the tests. No idea how to run them yet.
