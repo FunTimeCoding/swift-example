@@ -5,6 +5,7 @@ class Firewood {
         charred = false
     }
     func burn() {
+        println("burning firewood")
         charred = true
     }
 }
