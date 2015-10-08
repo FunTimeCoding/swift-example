@@ -1,6 +1,4 @@
-#!/usr/bin/env xcrun swift -I../src
-
-// This is a stand alone script, meaning no other modules can be used.
+// This is a multi module script, meaning all classes declared in `src` can be used.
 
 print("Hello friend.")
 
@@ -10,3 +8,8 @@ for argument in Process.arguments {
     print("Argument \(counter) is: \(argument)")
     counter++
 }
+
+var fw = Firewood()
+fw.burn()
+
+// vim: ft=swift

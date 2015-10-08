@@ -9,8 +9,7 @@ Run program. May only be one big file with no imports.
 Compile and run the program.
 
 ```sh
-./build.sh
-./bin/ss
+./build.sh --run
 ```
 
 Compile the tests. No idea how to run them yet.
