@@ -1,2 +1,8 @@
 #!/bin/sh -e
-find src -iname '*.swift' | xargs swiftc -o bin/example-program
+
+mkdir -p build
+find src -iname '*.swift' | xargs swiftc -o build/ss
+
+if [ "${1}" = "--run" ]; then
+    ./run.sh
+fi

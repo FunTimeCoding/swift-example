@@ -1,16 +1,16 @@
-# Swift Example
+# SwiftSkeleton
 
-Run example-script. May only be one big file with no imports.
+Run program. May only be one big file with no imports.
 
 ```sh
-./bin/example-script
+./bin/ss
 ```
 
 Compile and run the program.
 
 ```sh
 ./build.sh
-./bin/example-program
+./bin/ss
 ```
 
 Compile the tests. No idea how to run them yet.

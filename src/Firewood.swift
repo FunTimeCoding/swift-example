@@ -1,11 +1,11 @@
 class Firewood {
     var charred: Bool
     init() {
-        println("initializing firewood")
+        print("initializing firewood")
         charred = false
     }
     func burn() {
-        println("burning firewood")
+        print("burning firewood")
         charred = true
     }
 }
