@@ -1,12 +1,27 @@
 # SwiftSkeleton
 
-Run program. May only be one big file with no imports.
+## Usage
+
+This section explains how to use this project.
+
+Run the main entry point program.
 
 ```sh
-./bin/ss
+bin/ss
 ```
 
-Compile and run the program.
+
+## Development
+
+This section explains how to use scripts that are intended to ease the development of this project.
+
+Build the project like Jenkins.
+
+```sh
+./build.sh
+```
+
+Build and run the project.
 
 ```sh
 ./build.sh --run
