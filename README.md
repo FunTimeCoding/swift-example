@@ -15,10 +15,16 @@ bin/ss
 
 This section explains how to use scripts that are intended to ease the development of this project.
 
-Build the project like Jenkins.
+Install development tools.
 
 ```sh
-./build.sh
+# TODO: Explain how to install tools required for the development of this project.
+```
+
+Run style check and show all concerns.
+
+```sh
+./run-style-check.sh
 ```
 
 Build and run the project.
@@ -27,8 +33,8 @@ Build and run the project.
 ./build.sh --run
 ```
 
-Compile the tests. No idea how to run them yet.
+Build the project like Jenkins.
 
 ```sh
-./run-tests.sh
+./build.sh
 ```
